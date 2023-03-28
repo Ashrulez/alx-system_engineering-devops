@@ -1,8 +1,0 @@
-# Configure ssh client so that you can connect to a server without typing a password.
-Host *
-    SendEnv LANG LC_*
-    HashKnownHosts yes
-    GSSAPIAuthentication yes
-    GSSAPIDelegateCredentials no
-    IdentityFile /alx-system_engineering-devops/0x0B-ssh/school
-    PasswordAuthentication no
